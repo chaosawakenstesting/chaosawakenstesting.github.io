@@ -37,19 +37,19 @@ p > strong {
 	font-size: 0.95rem;
 }
 
-@media(max-width: 1845px) {
+@media(max-width: 1860px) {
 	.image-text {
 		font-size: 0.9rem;
 	}
 }
 
-@media(max-width: 1770px) {
+@media(max-width: 1795px) {
 	.image-text {
 		font-size: 0.85rem;
 	}
 }
 
-@media(max-width: 1663px) {
+@media(max-width: 1678px) {
 	.image-text {
 		font-size: 0.8rem;
 		padding-left: 3rem;
@@ -64,7 +64,7 @@ p > strong {
 	}
 }
 
-@media(max-width: 1610px) {
+@media(max-width: 1625px) {
 	.background-container {
 		position: unset;
 	}
