@@ -16,6 +16,73 @@
 	color: white;
 }
 
+.information {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.information > span > h3 {
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+}
+
+.information-link {
+	text-decoration: underline;
+}
+
+.information-small {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.information-small > h1 {
+	font-size: 30px;
+}
+
+.information-small > p {
+	margin: 0;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.information-small > p:nth-child(2) {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.information-small > span {
+	padding-top: 20px;
+}
+
+.information-small > span > h3 {
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+	margin: 0;
+	font-size: 20px;
+	gap: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.information-small > span > h3:nth-child(2) {
+	font-size: 14px;
+}
+
+.information-small > h4 {
+	font-style: italic;
+	font-size: 14px;
+}
+
+.information-link {
+	text-decoration: underline;
+}
+
 .downloads {
 	display: flex;
 	justify-content: center;
@@ -161,6 +228,20 @@ a:hover > .download-websites {
 	}
 }
 
+@media(max-width: 1150px) {
+	.information > h1 {
+		font-size: 30px;
+	}
+
+	.information > span > h3 {
+		font-size: 22px;
+	}
+
+	.information > h4 {
+		font-size: 18px;
+	}
+}
+
 @media(max-width: 970px) {
 	.background-image {
 		margin-left: 7.5rem;
@@ -176,6 +257,10 @@ a:hover > .download-websites {
 	.content {
 		min-width: calc(100% - 7.5rem);
 		max-width: calc(100% - 7.5rem);
+	}
+
+	.information > h1 {
+		font-size: 28px;
 	}
 }
 
@@ -197,6 +282,18 @@ a:hover > .download-websites {
 		max-width: calc(100% - 5rem);
 		font-size: 18px;
 	}
+
+	.information > h1 {
+		font-size: 26px;
+	}
+
+	.information > span > h3 {
+		font-size: 20px;
+	}
+
+	.information > h4 {
+		font-size: 16px;
+	}
 }
 
 @media(max-width: 730px) {
@@ -206,6 +303,14 @@ a:hover > .download-websites {
 
 	.content {
 		font-size: 16px;
+	}
+
+	.information > h1 {
+		font-size: 24px;
+	}
+
+	.information > h4 {
+		font-size: 14px;
 	}
 }
 
@@ -233,9 +338,17 @@ a:hover > .download-websites {
 	.name {
 		padding: 1rem;
 	}
+
+	.information > h1 {
+		font-size: 22px;
+	}
+
+	.information > span > h3 {
+		font-size: 18px;
+	}
 }
 
-@media (max-width: 570px) {
+@media (max-width: 575px) {
 	.background-image {
 		margin-left: 1rem;
 		margin-right: 1rem;
@@ -258,6 +371,18 @@ a:hover > .download-websites {
 
 	.name {
 		padding: 0.5rem;
+	}
+
+	.information > h1 {
+		font-size: 20px;
+	}
+
+	.information > span > h3 {
+		font-size: 16px;
+	}
+
+	.information > h4 {
+		font-size: 12px;
 	}
 }
 
@@ -310,6 +435,20 @@ a:hover > .download-websites {
 	.chaos-awakens-icon {
 		margin-right: 5px;
 	}
+
+	.information > h1 {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 520px) {
+	.information {
+		display: none;
+	}
+
+	.information-small {
+		display: flex;
+	}
 }
 
 @media (max-width: 400px) {
@@ -327,12 +466,37 @@ a:hover > .download-websites {
 }
 
 @media (max-width: 370px) {
-
 	.header {
 		font-size: 14px;
 	}
 
 	.content {
 		font-size: 14px;
+	}
+}
+
+@media (max-width: 300px) {
+	.information-small > h1 {
+		font-size: 24px;
+	}
+
+	.information-small > p {
+		font-size: 28px;
+	}
+
+	.information-small > p:nth-child(2) {
+		font-size: 20px;
+	}
+
+	.information-small > span > h3 {
+		font-size: 18px;
+	}
+
+	.information-small > span > h3:nth-child(2) {
+		font-size: 12px;
+	}
+
+	.information-small > h4 {
+		font-size: 12px;
 	}
 }

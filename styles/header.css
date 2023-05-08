@@ -147,3 +147,9 @@ a {
 		width: 16rem;
 	}
 }
+
+@media(max-width:300px) {
+	.chaos-awakens-logo {
+		width: 12rem;
+	}
+}
